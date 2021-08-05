@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F6F6F6;    
+}
+.container {
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-left {
+    float: left;
+}
+.logo {
+    margin-top: 50px;
+    cursor: default;
+}
+.header-right {
+    float: right;
+    /* background-color: aqua; */
+}
+header {
+    height: 125px;
+    /* テスト */
+    /* background-color: pink; */
+}
+.header-right p {
+    font-size: 10px;
+    color: #515151;
+}
+.header-right a {
+    font-size: 26px;
+    color: #515151;
+}
+.red {
+    color: #b22c00;
+}
+.border {
+    border: solid 1px #838181;
+    padding: 10px 17px;
+}
+/* ここからカテゴリー */
+.category-wrapper ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.category-wrapper li {    
+    width: 20%;
+    float: left;
+    /* border-right: solid 1px #838181; */
+    padding: 20px 0px;
+    font-size: 14px;
+    border: solid 1px #6CC6C4;
+    color: white;
+    /* background-color: #91DCDA; */
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    font-weight: bold; 
+    cursor: default;
+}
+.category-wrapper li:hover{
+    background-image: linear-gradient(rgb(108,198,196) 0%, rgb(156,227,225) 100%);
+    color: #C1FFFD;
+}
+.radius-left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.radius-right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.category-wrapper li+li {
+    margin-left: -1px;
+}
+
+.eng {
+    font-size: 10px;
+}
+.category-wrapper {
+    height: 85px;
+    /* background-color: aqua; */
+    margin-bottom: 25px;
+}
+
+.top-left {
+    float: left;
+}
+.top-right {
+    float: right;
+    width: 640px;
+}
+.top-wrapper {
+    height: 730px;
+    /* background-color: burlywood; */
+}
+.nom-tooth {
+    /* テスト用 */
+    /* background-color: chartreuse; */
+    
+    text-align: left;    
+}
+.nom-tooth h3 {
+    color: white;
+    /* background-color: #91DCDA;     */
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    border: solid 1px #6CC6C4;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.content {
+    border: solid 1px #6CC6C4;
+    margin-top: -1px;
+    margin-bottom: 20px;
+    width: 260px;
+    background-color: white;
+    cursor: default;
+}
+.content p {
+    border-bottom: solid 1px #6CC6C4;
+    margin: 15px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    color: #515151;
+    font-weight: bold;
+    
+}
+.content span {
+    color: #6cc6c4;
+}
+
+/* ニュース */
+.new-info {
+    /* height: 412px; */
+    background-color: white;
+    text-align: left;    
+    color: #515151;
+    padding: 35px 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.new-info h3{
+    font-size: 16px;
+    /* background-color: darksalmon; */
+    border-bottom: solid 3px #6CC6C4;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    
+}
+.new-info p{
+    font-size: 13px;
+}
+.date {
+    /* background-color: chartreuse; */
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.article {
+    /* background-color: cornflowerblue; */
+    display: inline-block;
+    width: 430px;
+}
+.news {
+    /* background-color: rgb(69, 195, 226); */
+    border-bottom: dotted 1px #CCCCCC;
+    margin-top: 0px;
+}
+
+footer {
+    /* background-color: blueviolet; */
+    font-size: 13px;
+}
+.footer-category {
+    background-color: #6CC6C4;
+    text-align: left;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 15px;
+}
+.footer-category p{
+    display: inline-block;
+    
+    color: white;
+    /* background-color: tomato; */
+    margin: 8px 12px;
+    cursor: pointer;
+}
+.footer-category :hover{
+    border-bottom: solid 1px white;
+    margin-bottom: 7px;
+}
+.address {
+    /* background-color: yellow; */
+    text-align: right;
+    color: #515151;
+    border-bottom: solid 2px #6CC6C4;
+    padding-bottom: 17px;
+}
+.bold {
+    font-weight: bold;    
+}
+.inc {
+    color: #515151;
+}

@@ -1,0 +1,35 @@
+@media(max-width: 767px){
+    header {
+        overflow-x: scroll;
+    }
+    
+    .sub-article{
+        flex-direction: column;
+    }
+    .sub-section{
+        width:100%;
+    }
+    .main{
+        display: block;
+    }
+    article{
+        width: 100%;;
+    }
+    aside{
+        width: 100%;
+    }
+    .footer-list{
+        flex-direction: column;
+    }
+    .about{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        margin: 55px 0 0 0;
+    }
+    .twitter{
+        width: 100%;
+        margin-top: 50px;
+    }
+}

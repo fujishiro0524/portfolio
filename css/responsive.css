@@ -1,0 +1,20 @@
+@media (max-width: 960px){
+    .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .langage{
+        width: 80%;
+    }
+    .ex-skill{
+        width: 80%;
+    }
+    .codings{
+        flex-direction: column;
+        align-items: center;
+    }
+    .coding{
+        width: 80%;
+    }
+
+}

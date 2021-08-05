@@ -1,0 +1,47 @@
+@media (max-width: 960px) {
+    header{
+        height: 50vh;
+    }
+    .head-link{
+        display: none;
+    }
+    .head-hum{
+        display: block;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .logo {
+        height: 45px;
+    }
+    .head-left {
+        padding-top: 20px;
+    }
+    .concept {
+        font-size: 24px;
+    }
+
+    .news-wrapper h2{
+        font-size: 24px;
+        margin: 50px 0 20px 0;
+    }
+    .news{
+        margin-left: 20px;
+        max-width: 900px;
+
+    }
+
+    .builds {
+        display: block;
+    }
+    .build-image{
+        max-width: 700px;
+    }
+
+    .link a{
+        width: 100%;
+        background-color: chocolate;
+    }
+    .link{
+        flex-direction: column;
+    }
+}
